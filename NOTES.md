@@ -17,3 +17,8 @@ Findings from `v1.mope.io/client.pretty.js` (prettified `client.js`, game versio
 - Most skin and ability image paths are built at runtime (`"skins/" + <biome>/<animal>/<skinName> + ".png"`),
   so they can't be enumerated statically; directory listing is disabled (404).
 - Audio is loaded via `new Audio("audio/....mp3")` (e.g. `audio/tap.mp3`, `audio/click.mp3`); these returned 404 on `v1.mope.io`.
+
+## Asset path fix
+The client requests images as `/assets/s/<season>/img/...` and `/assets/s/<season>/skins/...`
+(`<season>` comes from the server handshake; seasons 1 and 2 exist on `v1.mope.io`). The bare
+`img/...` and `skins/...` paths 404, which is why those files were missing until fetched with the season prefix.
