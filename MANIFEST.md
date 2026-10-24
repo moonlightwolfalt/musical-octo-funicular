@@ -1,0 +1,293 @@
+# Asset manifest for v1.mope.io
+
+Paths only; no binaries are stored in this repo. Base URL `https://v1.mope.io/`.
+Images load as `assets/s/<season>/<path>` (seasons 1 and 2 exist; `<season>` comes from the server handshake). Bare paths 404.
+
+## Path templates built at runtime (from `client.pretty.js`)
+
+- `/assets/s/` + …
+- `/img/disasters/` + …
+- `/img/pumpkin/` + …
+- `/skins/` + …
+- `assets/s/` + …
+- `img/` + …
+- `img/arcticNut` + …
+- `img/arcticano/` + …
+- `img/banana` + …
+- `img/beachball/` + …
+- `img/beehive` + …
+- `img/carrot` + …
+- `img/clam` + …
+- `img/cloudberry` + …
+- `img/coconut` + …
+- `img/coin/coin` + …
+- `img/conch` + …
+- `img/desert/` + …
+- `img/dirt/` + …
+- `img/disasters/` + …
+- `img/fire/` + …
+- `img/floaters/` + …
+- `img/healingStone` + …
+- `img/honeycomb` + …
+- `img/kelp` + …
+- `img/lillypad` + …
+- `img/meat` + …
+- `img/pear` + …
+- `img/pumpkin/` + …
+- `img/rasp` + …
+- `img/riverCurrent` + …
+- `img/seaweed` + …
+- `img/starfish` + …
+- `img/target` + …
+- `img/umbrella/` + …
+- `img/upgradeshell/` + …
+- `img/upgradeshell/outline` + …
+- `img/upgradeshell/shellpart` + …
+- `img/viralpandemic/` + …
+- `img/watermelon` + …
+- `img/watermelonSlice` + …
+- `img/web/` + …
+- `img/xmasgifts/` + …
+- `skins/` + …
+- `skins/arctic/bear/` + …
+- `skins/arctic/icemonster/` + …
+- `skins/arctic/icemonster/201/icemonster` + …
+- `skins/arctic/muskox/` + …
+- `skins/arctic/penguin/` + …
+- `skins/arctic/reindeer/` + …
+- `skins/arctic/sabertooth/` + …
+- `skins/arctic/seal/` + …
+- `skins/arctic/snowman/` + …
+- `skins/arctic/walrus/` + …
+- `skins/arctic/wolf/` + …
+- `skins/arctic/wolverine/` + …
+- `skins/arctic/yeti/` + …
+- `skins/deathworm/segment_` + …
+- `skins/desert/armadillo/` + …
+- `skins/desert/bison/` + …
+
+## Literal paths referenced in the client or seen as served
+
+### assets (1)
+- `assets/abilities/Dash-Boost.svg`
+
+### audio (6)
+- `audio/bite.mp3`
+- `audio/bloop.mp3`
+- `audio/click.mp3`
+- `audio/music_game.mp3`
+- `audio/nom.mp3`
+- `audio/tap.mp3`
+
+### gameobj (14)
+- `assets/s/1/gameobj/106/snow-flake.png`
+- `assets/s/2/gameobj/78/incentive/1.png`
+- `assets/s/2/gameobj/78/incentive/10.png`
+- `assets/s/2/gameobj/78/incentive/11.png`
+- `assets/s/2/gameobj/78/incentive/12.png`
+- `assets/s/2/gameobj/78/incentive/13.png`
+- `assets/s/2/gameobj/78/incentive/2.png`
+- `assets/s/2/gameobj/78/incentive/3.png`
+- `assets/s/2/gameobj/78/incentive/4.png`
+- `assets/s/2/gameobj/78/incentive/5.png`
+- `assets/s/2/gameobj/78/incentive/6.png`
+- `assets/s/2/gameobj/78/incentive/7.png`
+- `assets/s/2/gameobj/78/incentive/8.png`
+- `assets/s/2/gameobj/78/incentive/9.png`
+
+### img (98)
+- `assets/s/1/img/ability_claw.png`
+- `assets/s/1/img/ability_crabSmashSkin.png`
+- `assets/s/1/img/ability_pounce1.png`
+- `assets/s/1/img/ability_pounce2.png`
+- `assets/s/1/img/camera.png`
+- `assets/s/1/img/custom/pad.png`
+- `assets/s/1/img/custom/trampoline/leg_zebra.png`
+- `assets/s/1/img/custom/trampoline/rug_zebra.png`
+- `assets/s/1/img/custom/trunk1.png`
+- `assets/s/1/img/custom/trunk2.png`
+- `assets/s/1/img/desert/anthill/anthill.png`
+- `assets/s/1/img/dirt/dirt_below.png`
+- `assets/s/1/img/disasters/cloud.png`
+- `assets/s/1/img/disasters/cloud1.png`
+- `assets/s/1/img/disasters/coldwave.png`
+- `assets/s/1/img/disasters/dustwave.png`
+- `assets/s/1/img/disasters/heatwave.png`
+- `assets/s/1/img/disasters/tsunami.png`
+- `assets/s/1/img/quill.png`
+- `assets/s/1/img/raindrop.png`
+- `assets/s/1/img/snowball.png`
+- `assets/s/1/img/viralpandemic/mask-outline.png`
+- `assets/s/1/img/viralpandemic/mask.png`
+- `assets/s/1/img/viralpandemic/virus.png`
+- `assets/s/1/img/wave.png`
+- `assets/s/1/img/web/0/spiderWeb.png`
+- `assets/s/1/img/whirlpool2.png`
+- `assets/s/2/img/ability_claw.png`
+- `assets/s/2/img/ability_crabSmashSkin.png`
+- `assets/s/2/img/ability_pounce1.png`
+- `assets/s/2/img/ability_pounce2.png`
+- `assets/s/2/img/camera.png`
+- `assets/s/2/img/custom/pad.png`
+- `assets/s/2/img/custom/trampoline/leg_zebra.png`
+- `assets/s/2/img/custom/trampoline/rug_zebra.png`
+- `assets/s/2/img/custom/trunk1.png`
+- `assets/s/2/img/custom/trunk2.png`
+- `assets/s/2/img/desert/anthill/anthill.png`
+- `assets/s/2/img/disasters/cloud.png`
+- `assets/s/2/img/disasters/cloud1.png`
+- `assets/s/2/img/disasters/coldwave.png`
+- `assets/s/2/img/disasters/dustwave.png`
+- `assets/s/2/img/disasters/heatwave.png`
+- `assets/s/2/img/disasters/tsunami.png`
+- `assets/s/2/img/quill.png`
+- `assets/s/2/img/raindrop.png`
+- `assets/s/2/img/snowball.png`
+- `assets/s/2/img/viralpandemic/mask-outline.png`
+- `assets/s/2/img/viralpandemic/mask.png`
+- `assets/s/2/img/viralpandemic/virus.png`
+- `assets/s/2/img/wave.png`
+- `assets/s/2/img/web/0/spiderWeb.png`
+- `assets/s/2/img/whirlpool2.png`
+- `img/ability_claw.png`
+- `img/ability_crabSmashSkin.png`
+- `img/ability_dive.png`
+- `img/ability_diveMud.png`
+- `img/ability_dive_lava.png`
+- `img/ability_pounce1.png`
+- `img/ability_pounce2.png`
+- `img/ability_sabertoothJawAttack.png`
+- `img/appAd_and.png`
+- `img/appAd_ios.png`
+- `img/camera.png`
+- `img/custom/pad.png`
+- `img/custom/trampoline/leg_zebra.png`
+- `img/custom/trampoline/rug_zebra.png`
+- `img/custom/trunk1.png`
+- `img/custom/trunk2.png`
+- `img/desert/anthill/anthill.png`
+- `img/dirt/dirt_below.png`
+- `img/disasters/cloud.png`
+- `img/disasters/cloud1.png`
+- `img/disasters/coldwave.png`
+- `img/disasters/dustwave.png`
+- `img/disasters/heatwave.png`
+- `img/disasters/tsunami.png`
+- `img/fire.png`
+- `img/fire2.png`
+- `img/firetornado.png`
+- `img/howToPlay1.png`
+- `img/icons/1v1.png`
+- `img/logo.png`
+- `img/quill.png`
+- `img/raindrop.png`
+- `img/settings.png`
+- `img/share_banner.jpg`
+- `img/snowball.png`
+- `img/sound_off.png`
+- `img/sound_on.png`
+- `img/spiderWeb.png`
+- `img/viralpandemic/mask-outline.png`
+- `img/viralpandemic/mask.png`
+- `img/viralpandemic/virus.png`
+- `img/wave.png`
+- `img/web/0/spiderWeb.png`
+- `img/whirlpool2.png`
+- `img/x.png`
+
+### root (1)
+- `favicon.ico`
+
+### shop (11)
+- `shop/VIP_Button.png`
+- `shop/VIP_Pass.png`
+- `shop/back.png`
+- `shop/close.png`
+- `shop/clothing.png`
+- `shop/coins.png`
+- `shop/deals/deals.png`
+- `shop/features.png`
+- `shop/gem.png`
+- `shop/mopecoin.png`
+- `shop/skins.png`
+
+### skins (79)
+- `assets/s/1/skins/arctic/icemonster/0/icemonster.png`
+- `assets/s/1/skins/arctic/yeti/0/yeti.png`
+- `assets/s/1/skins/desert/pterodactyl/0/pterodactyl_ability.png`
+- `assets/s/1/skins/desert/scorpion/0/giantscorpion.png`
+- `assets/s/1/skins/frog/frogLegs.png`
+- `assets/s/1/skins/land/aiboss/chandyo/chandyo_back.png`
+- `assets/s/1/skins/land/aiboss/chandyo/chandyo_head.png`
+- `assets/s/1/skins/land/aiboss/sultan/left_wing.png`
+- `assets/s/1/skins/land/aiboss/sultan/right_wing.png`
+- `assets/s/1/skins/land/aiboss/sultan/sultan_head.png`
+- `assets/s/1/skins/land/aiboss/sultan/tail.png`
+- `assets/s/1/skins/land/birdmonster/0/birdmonster_ability.png`
+- `assets/s/1/skins/land/dinomonster/0/dinomonster.png`
+- `assets/s/1/skins/land/dragon/0/0/dragon.png`
+- `assets/s/1/skins/land/hippo/204/roar.png`
+- `assets/s/1/skins/land/mouse/0/mouse.png`
+- `assets/s/1/skins/land/trex/0/trex.png`
+- `assets/s/1/skins/ocean/kingcrab/0/kingcrab.png`
+- `assets/s/1/skins/ocean/kraken/0/0/kraken.png`
+- `assets/s/1/skins/ocean/seamonster/0/seamonster.png`
+- `assets/s/1/skins/ocean/snail/snail_head.png`
+- `assets/s/1/skins/santa/0/sleigh.png`
+- `assets/s/1/skins/volcano/blackdragon/0/blackdragon.png`
+- `assets/s/1/skins/volcano/landmonster/0/0/landmonster.png`
+- `assets/s/1/skins/volcano/phoenix/0/phoenix.png`
+- `assets/s/2/skins/arctic/icemonster/0/icemonster.png`
+- `assets/s/2/skins/arctic/yeti/0/yeti.png`
+- `assets/s/2/skins/desert/pterodactyl/0/pterodactyl_ability.png`
+- `assets/s/2/skins/desert/scorpion/0/giantscorpion.png`
+- `assets/s/2/skins/frog/frogLegs.png`
+- `assets/s/2/skins/land/aiboss/chandyo/chandyo_back.png`
+- `assets/s/2/skins/land/aiboss/chandyo/chandyo_head.png`
+- `assets/s/2/skins/land/aiboss/sultan/left_wing.png`
+- `assets/s/2/skins/land/aiboss/sultan/right_wing.png`
+- `assets/s/2/skins/land/aiboss/sultan/sultan_head.png`
+- `assets/s/2/skins/land/aiboss/sultan/tail.png`
+- `assets/s/2/skins/land/birdmonster/0/birdmonster_ability.png`
+- `assets/s/2/skins/land/dinomonster/0/dinomonster.png`
+- `assets/s/2/skins/land/dragon/0/0/dragon.png`
+- `assets/s/2/skins/land/trex/0/trex.png`
+- `assets/s/2/skins/ocean/kingcrab/0/kingcrab.png`
+- `assets/s/2/skins/ocean/kraken/0/0/kraken.png`
+- `assets/s/2/skins/ocean/seamonster/0/seamonster.png`
+- `assets/s/2/skins/ocean/snail/snail_head.png`
+- `assets/s/2/skins/santa/0/sleigh.png`
+- `assets/s/2/skins/volcano/blackdragon/0/blackdragon.png`
+- `assets/s/2/skins/volcano/landmonster/0/0/landmonster.png`
+- `assets/s/2/skins/volcano/phoenix/0/phoenix.png`
+- `skins/arctic/icemonster/0/icemonster.png`
+- `skins/arctic/yeti/0/wolf.png`
+- `skins/arctic/yeti/0/yeti.png`
+- `skins/cassowary/cassowary1.png`
+- `skins/desert/camel/spit.png`
+- `skins/desert/gazelle/gazelle1.png`
+- `skins/desert/pterodactyl/0/pterodactyl_ability.png`
+- `skins/desert/scorpion/0/giantscorpion.png`
+- `skins/frog/frogLegs.png`
+- `skins/land/aiboss/chandyo/chandyo_back.png`
+- `skins/land/aiboss/chandyo/chandyo_head.png`
+- `skins/land/aiboss/sultan/left_wing.png`
+- `skins/land/aiboss/sultan/right_wing.png`
+- `skins/land/aiboss/sultan/sultan_head.png`
+- `skins/land/aiboss/sultan/tail.png`
+- `skins/land/birdmonster/0/birdmonster_ability.png`
+- `skins/land/dinomonster/0/dinomonster.png`
+- `skins/land/dragon/0/0/dragon.png`
+- `skins/land/hippo/204/roar.png`
+- `skins/land/trex/0/trex.png`
+- `skins/monsters/dinomonster/dinomonster.png`
+- `skins/monsters/icemonster/icemonster.png`
+- `skins/ocean/kingcrab/0/kingcrab.png`
+- `skins/ocean/kraken/0/0/kraken.png`
+- `skins/ocean/seamonster/0/seamonster.png`
+- `skins/ocean/snail/snail_head.png`
+- `skins/phoenix/phoenix.png`
+- `skins/santa/0/sleigh.png`
+- `skins/volcano/blackdragon/0/blackdragon.png`
+- `skins/volcano/landmonster/0/0/landmonster.png`
+- `skins/volcano/phoenix/0/phoenix.png`
