@@ -1,0 +1,384 @@
+[
+    {
+    "title": "Mope.io V2 Migration Preparation",
+    "env": "production",
+    "date": 1781367695614,
+    "description": [
+      "In preparation for the Mope.io V2 migration on 20 June, account-related functionality will be temporarily paused starting 19 June at approximately 09:00 UTC.",
+      "During this period, players may be unable to use login, registration, account settings, shop, coins, skins, and other account-based features.",
+      "Account data is not intended to be deleted as part of this process.",
+      "Further updates will be posted as the migration progresses and once account functionality is restored."
+    ]
+  },
+  {
+    "title": "Fixes & Changes",
+    "env": "production",
+    "date": 1769886634056,
+    "description": [
+      "Disabled Christmas mode.",
+      "Fixed several critical issues which could've caused server freezing.",
+      "Improved reconnection mechanism.",
+      "Small bug fixes and changes."
+    ]
+  },
+  {
+    "title": "Merry Christmas to mope!",
+    "env": "production",
+    "date": 1766667669020,
+    "description": [
+      "Christmas mode is here in Mope!",
+      {
+        "title": "New skins have been added",
+        "description": [
+          "Ursa Major - @bogus0309",
+          "Icicle Pufferfish - @bogus0309",
+          "Gift Deliverer Penguin - @bogus0309",
+          "Ornamental mouse - @seaweedndr",
+          "Evergreen swordfish - @seaweedndr",
+          "Ssscard Boa Constrictor - @preciouscoconut",
+          "Krampus Markhor - @preciouscoconut"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Halloween Update",
+    "env": "production",
+    "date": 1761722163018,
+    "description": [
+      "Halloween mode & skins",
+      {
+        "title": "Skins",
+        "description": [
+          "Witch Cat - @crococraze",
+          "Croco Slime - @crococraze",
+          "Guardion - @crococraze",
+          "Hampire - @crococraze",
+          "Jawsome - @crococraze",
+          "The Cerebus - @crococraze",
+          "Moby Dick - @seaweedndr",
+          "More infos on the rewrite coming very soon, stay tuned."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Community Skins",
+    "env": "production",
+    "date": 1754065835071,
+    "description": [
+      "Added community skins that are available in the shop as of now!",
+      {
+        "title": "Community Artists",
+        "description": [
+          "King Nightbringer - @crococraze",
+          "Aurora Black Dragon - Original Concept by @callsignzero - Reworked by Mope Artists",
+          "Celestial Phoenix - Created by Phoenix (Account was deleted)",
+          "Nebula Monster - @twntsx",
+          "Singularity Phoenix - @.lapis.lazuli.",
+          "Star Dragon - @spoopybug",
+          "Starlight Toucan - @preciouscoconut"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Summer comes to mope.io!",
+    "env": "production",
+    "date": 1751133128561,
+    "description": [
+      "Enabled Summer mode.",
+      "Added new summer skins.",
+      "Community skins are coming into the game soon."
+    ]
+  },
+  {
+    "title": "Fixes",
+    "env": "production",
+    "date": 1743929624952,
+    "description": [
+      {
+        "title": "Arena changes",
+        "description": [
+          "Walls moves twice slower",
+          "Walls get minimum radius at the 4th minute, leaving 3 minutes until final timeout with small walls",
+          "If no one died at the timeout, both are killed",
+          "These changes fix the previous bugs introduced by arena changes"
+        ]
+      },
+      "Fixed the coin status message (for real this time)."
+    ]
+  },
+  {
+    "title": "Small Fixes & Changes",
+    "env": "production",
+    "date": 1743325346938,
+    "description": [
+      "Fixed arena ending in a bugged way.",
+      "Fixed the coin status message.",
+      "Removed the adblock check."
+    ]
+  },
+  {
+    "title": "Shop Update Part 1",
+    "env": "production",
+    "date": 1743240332433,
+    "description": [
+      {
+        "title": "New shop features",
+        "description": [
+          "Coins are finally back!",
+          "Coins purchasing is back as well with a better interface",
+          "New gem currency to purchase premium skins",
+          "New exclusive skins",
+          "Pakistan animals are replaced with new rares",
+          "Part 2 is coming soon with more skins and features.."
+        ]
+      },
+      {
+        "title": "Fixes and balancing",
+        "description": [
+          "Inputs not being handled should be fixed",
+          "Land Monster sink hole duration is reduced by 50%",
+          "Auto-arena limit for BDs is now 8",
+          "Dragons and phoenixes are no longer colliding with beehives under trees",
+          "Removed unfair arena closing burn",
+          "15M xp gain cap is now removed",
+          "Health now regens in KD/BD auto-arena",
+          "BD cannot hide in volcano if another BD is close",
+          "An 1v1 invitation is not valid anymore if one of the fighter is a BD/KD with low health",
+          "Animals can't collide in caves anymore (cant block each others)"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Fixes",
+    "env": "production",
+    "date": 1738612103891,
+    "description": [
+      "Fixed yet another ghost player issue.",
+      "Fixed session reconnects."
+    ]
+  },
+  {
+    "title": "Fixes & Small Changes",
+    "env": "production",
+    "date": 1738078571983,
+    "description": [
+      "Increased client movement speed back to 120 based on the feedback.",
+      "After landing from a Dino Monster throw, you gain 2.5s immunity to any abilities.",
+      "Re-enabled 5s invincibility on spawn.",
+      "Allowed logged out players to 1v1.",
+      {
+        "title": "Changed arena settings to beta ones",
+        "description": [
+          "Battle start interval: 25s->15s",
+          "Time for first shrink: 60s->10s",
+          "Time for next shrinks: 30s->15s"
+        ]
+      },
+      "Fixed an issue where during the small window of time between server requesting the captcha response and receiving it, the player could disconnect and not be properly removed from the server causing more lags over time."
+    ]
+  },
+  {
+    "title": "Movement speed increase",
+    "env": "production",
+    "date": 1737829360062,
+    "description": ["Increased movement speed to 110"]
+  },
+  {
+    "title": "Bug Fixes, Optimizations & Movement",
+    "env": "production",
+    "date": 1737809628194,
+    "description": [
+      "Mope.io community we are working on bringing coins back! If everything goes according to plan you will be able to receive coins in the next month.",
+      "Added Stockholm and Brazil servers.",
+      "Improved account server hardware.",
+      "Increased networked angle precision (from ~1.411 degrees to ~0.005 degrees).",
+      "Added additional game server optimizations.",
+      "Changed client movement speed to 100 from 120.",
+      "Fixed a bug that caused a constant variable increase in latency.",
+      "Fixed an issue where shop animals would go into skins tab instead of features tab.",
+      "Disabled Christmas mode."
+    ]
+  },
+  {
+    "title": "Beta Mope.io",
+    "env": "beta",
+    "date": 1737199211190,
+    "description": [
+      "Welcome to beta version of mope.io!",
+      "Just like before the servers here are unstable and may restart at any time.",
+      "Currently we are testing out the movement changes, so please make sure to send your feedback in the discord server!",
+      "Beta accounts aren't synchronized with the live mope accounts, so if you didn't login into your account before 18th of January, your account will be recreated from scratch on beta (live mope accounts are fine)."
+    ]
+  },
+  {
+    "title": "Christmas",
+    "env": "production",
+    "date": 1735146522538,
+    "description": [
+      "Merry Christmas!",
+      "Claim a limited time skin - free Santa Dragon!",
+      "Mope world is temporarily freezing cold! Snowballs are now everywhere!",
+      "Special Christmas food is scattered around the map now!",
+      "One of the snowman variants will always appear!",
+      "Visual snowflakes that you can turn off in the options (permanently turned off on low graphics)",
+      "Fix: Mudspots that are created from abilties should show up correctly",
+      "Fix: Pumpkins should show up to everyone consistently now."
+    ]
+  },
+  {
+    "title": "Bug Fixes & Optimizations",
+    "env": "production",
+    "date": 1735040003101,
+    "description": [
+      "Another batch of server optimizations.",
+      "Small improvements to server networking code.",
+      "Should've fixed the server crash issues.",
+      "Should've fixed an issue with players accidentally having focus on an invisible ad (no keyboard input)",
+      "Fixed an issue with the player's bar type not being reset (no more lava drinking mouse)",
+      "Fixed Dino Monster and Giant Scorpion being invisible underwater.",
+      "Server physics are tick independent now, this means that something like 40 TPS will still feel close to 60 (smooth!)",
+      "Improved client rotation code to skip less frames, should be more smooth now.",
+      "Reverted fox ability behaviour (now should kick all animals below Rhino tier instead of only stunned animals inside holes).",
+      "Reduced the minimap pumpkins update time (now it updates every 1s)",
+      "Removed vertical rivers (currently they don't serve much purpose and take up a ton of server performance).",
+      "Removed expired LF servers from the list.",
+      "Fixed an issue with the shop animal increased rarity not working.",
+      "Fixed an issue where desert chipmunk spat food could've affected players inside arena."
+    ]
+  },
+  {
+    "title": "Server Fixes",
+    "env": "production",
+    "date": 1732457989010,
+    "description": [
+      "We have improved server collision performance by ~2.5x",
+      "Connection issues should be fixed as well.",
+      "Please report any gameplay bug caused by this update in our discord server."
+    ]
+  },
+  {
+    "title": "Misc Updates.",
+    "env": "production",
+    "date": 1732294976914,
+    "description": [
+      "NEW: End Screen. Now you can see your stats on death.",
+      "NEW: TPS and PING counter under the map. TPS measures Server FPS, while PING measures your connection quality to the server.",
+      "Increased map opacity for better readability.",
+      "Fixed filter not working on nicknames.",
+      "Working on improving the server performance."
+    ]
+  },
+  {
+    "title": "New Servers",
+    "env": "production",
+    "date": 1732027161505,
+    "description": ["Temporarily added LF servers to the menu."]
+  },
+  {
+    "title": "Server Fixes",
+    "env": "production",
+    "date": 1731776129744,
+    "description": [
+      "Fixed account server related issues.",
+      "Fixed small server code issues which could've caused some freezing.",
+      "Pumpkins now shouldn't dissapear when you hold them.",
+      "We are taking steps to improve server performance."
+    ]
+  },
+  {
+    "title": "Fixes Part 1",
+    "env": "production",
+    "date": 1731329740226,
+    "description": [
+      "We are excited to announce that Mope.io has been officially acquired by 3AM Experiences!",
+      "If you encounter any bugs please report them on the official discord server.",
+      "This update has fixed major bugs with the game while also changing the game's art to the one preferred by players.",
+      "Make sure to setup your skins in the new wardrobe page in the shop!",
+      "Next update will be focused on gameplay, suggestions are welcome!",
+      "We have added pumpkins to the map replacing the mopeballs.",
+      "Coin earning has been TEMPORARILY DISABLED to prepare for a shop price change.",
+      "Current server locations are not permanent and will change based on player's feedback.",
+      "Current server locations are not permanent and will change based on player's feedback.",
+      {
+        "title": "General changes:",
+        "description": [
+          "Reverted to the Old UI",
+          "Reverted to the Old Art",
+          "Most if not all of the missing skins should be fixed (report the missing ones in the discord server!)",
+          "Fixed incorrectly replaced shop skin.",
+          "Please report if some assets are missing!",
+          "Moved profanity filter to the client with an option to toggle it.",
+          "Improved general performance.",
+          "Improved performance for the river drawing code",
+          "Reduced cooldowns for some of the actions",
+          "Fixed beaches being offset from the ocean having a small gap in their collision",
+          "Fixed Sea Monster weird behaviour with being able to \"dive\" in land with it's ability.",
+          "Fixed Venus Flytraps being able to stop a jumping gazelle.",
+          "Fixed some of the birds not being able to climb trees",
+          "Fixed weird tree behaviour, where you couldn't hit players under a tree, unless you were under a tree yourself.",
+          "Fixed Ice Monster's crystal's randomly staying frozen for some time.",
+          "Fixed T-Rex not being able to hold holdable objects.",
+          "Fixed incorrect behaviour with a hole located on a lava pool.",
+          "Fixed lava animals not being able to drop the holdable object with S",
+          "Fixed Shaheen Falcon landing animation not playing",
+          "Fixed being able to have a newline in the username.",
+          "Fixed some of the objects not dissapearing properly when they should.",
+          "Fixed some of the objects not updating their edible state if they are on screen.",
+          "Fixed Snowy Owl zoom being infinite due to not having a cap.",
+          "Fixed the blackscreen bug. Please report if you still encounter it with the circumstances that it occured at.",
+          "Fixed Venus Flytrap detection and attacks not working properly.",
+          "Fixed sweat effect not working properly.",
+          "Fixed hypnotize effect not working properly.",
+          "Fixed a ton of server->client syncing issues for some of the objects.",
+          "Fixed being able to drink water as a non water consuming animal.",
+          "Fixed opponent dropping as meat if they died due to thirst.",
+          "Fixed volcano fireballs/fire not dealing damage.",
+          "Fixed Igloo not applying proper transparency when inside.",
+          "Fixed account server reconnection mechanism.",
+          "Fixed reconnection mechanism for the client.",
+          "Fixed not being able to hit volcanic animals that are on fire.",
+          "Fixed many assets not loading",
+          "Fixed arena giving a win to the invited player if they die at the same time.",
+          "Fixed fire effect not being applied to NPC animals",
+          "Fixed not accurate animal tooltips",
+          "Fixed being able to cancel some of the abilities",
+          "Fixed T-Rex skin being offset by 1.5px",
+          "Fixed some of the forest animals incorrect description and ability name.",
+          "Fixed being able to use Fox ability inside igloo/cave",
+          "Fixed Yeti and Snowman/Snowgirl not having a roar animation if you turn into snowball before hand.",
+          "Fixed being able to spam Bigfoot arm animation when using the ability.",
+          "Fixed being able to target animals that are in 1v1 Arena as Phoenix.",
+          "Fixed being able to land without animation as Macaw.",
+          "Fixed being able to dash as birds when your bar is low.",
+          "Fixed being able to fly away from prey as Snowy Owl when attacking.",
+          "Fixed being able to use health stone in a xave, if it's located near the entrance.",
+          "Fixed animal ability state not being updated if the animal was standing still.",
+          "Fixed lava not being capped at 0, overflowing to negative values.",
+          "Fixed poison lake state not being updated consistently.",
+          "Fixed being able to create spider web when on tree",
+          "Fixed BD not being able to fly over an Igloo",
+          "Fixed being able to gain XP from Blackwidow Spider bait (now it will only give 100xp). ",
+          "Fixed being able to create Land Monster sinkholes under a hill/rock.",
+          "Removed random ocean waves",
+          "Removed being able to go under BD/KD",
+          "Reduced maximum allowed BD's outside of arena from 20->3 and KD's from 5->1",
+          "Removed being able to select Bird Monster temporarily.",
+          "Removed pakistani animals with a replacement for them coming soon!"
+        ]
+      },
+      {
+        "title": "Account changes:",
+        "description": [
+          "NEW Wardrobe Tab! Equip your skins from there, so they appear in game!",
+          "New \"Discord\" login method available on the web version!",
+          "If you have trouble with any of the accounts related stuff, please report it!",
+          "Shop changes will be coming soon."
+        ]
+      }
+    ]
+  }
+]
