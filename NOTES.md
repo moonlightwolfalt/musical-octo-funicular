@@ -43,8 +43,8 @@ Structured messages (classes with `static type`):
 | 0xff | both | ping/pong (1 byte) |
 
 Opcodes the client sends (besides the above): 0x38 (leave spectate), 0x3b (keep-alive/ability tick),
-0x3c (input intensity: u8 dir, i16 value), 0x3d (UI button: u8 interface, u8 button), 0x3f/0x40/0x43/0x44
-(ability / chat / action packets), 0x42 (key state: u8 down, u8 key), 0x44 (u32 id), 0x4b-range misc.
+0x3c (input intensity: u8 dir, i16 value), 0x3d (UI button: u8 interface, u8 button), 0x42 (key state: u8 down, u8 key),
+0x43 (string from localStorage, see below), 0x44 (u32 id), 0x3f/0x40 (ability/action).
 Opcodes the client handles from the server: 2,3,4,6,8,10,11,14,16,17,18,19,23,24,25,56,58,59,62-65,67,69,72,
 81-84,100,102,103,106-109,111-114,255 (world updates, entities, leaderboard, chat, disasters, etc).
-The 0x4c… packet sent on a random 10-15 s timer carries a localStorage-derived value (client integrity check).
+The 0x43 packet sent on a random 10-15 s timer carries a localStorage-derived value (client integrity check).
